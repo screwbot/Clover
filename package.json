@@ -1,0 +1,17 @@
+{
+  "name": "clover-proxy",
+  "version": "1.0.0",
+  "description": "A beautiful intercepting proxy with HTML rewriting, URL XOR encoding and user agent spoofing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4"
+  }
+}
