@@ -1,2 +1,2 @@
 # clover
-## Also known as snapdragon beta, or SPB (snap public build)
+## Also known as snapdragon beta, snapdragon static, or SPB (snap public build)
