@@ -4,7 +4,7 @@
  * @param {string} key - The key to use for encoding/decoding (default: 'proxy')
  * @returns {string} The encoded/decoded string
  */
-function xorEncode(input, key = 'proxy') {
+function xorEncode(input, key = 'cloverontop') {
   let result = '';
   for (let i = 0; i < input.length; i++) {
     result += String.fromCharCode(input.charCodeAt(i) ^ key.charCodeAt(i % key.length));
