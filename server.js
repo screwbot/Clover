@@ -19,7 +19,7 @@ app.get('/proxy', async (req, res) => {
   try {
     const url = req.query.l;
     if (!url) {
-      return res.status(400).send('Missing URL parameter');
+      return res.status(400).send('Missing URL parameter (?l=)');
     }
 
     const userAgent = req.query.ua || req.headers['user-agent'];
