@@ -1,2 +1,2 @@
 # clover
-## Also known as snapdragon beta, or SPB (snap public build)
+## Static intersecping proxy aimed to me the successor to snapdragon
