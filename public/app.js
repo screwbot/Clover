@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * @param {string} key - The key to use for encoding
    * @returns {string} The base64 encoded result
    */
-  function encodeUrl(input, key = 'proxy') {
+  function encodeUrl(input, key = 'cloverontop') {
     // XOR encode
     let result = '';
     for (let i = 0; i < input.length; i++) {
